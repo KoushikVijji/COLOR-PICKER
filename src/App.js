@@ -16,7 +16,7 @@ function App() {
 
   const handleColorBoxClick = (color) => {
     setButtonBackgroundColor(color);
-    setColorBoxesVisible(false); // Hide color boxes after selecting a color
+    setColorBoxesVisible(false);
   };
 
   return (
