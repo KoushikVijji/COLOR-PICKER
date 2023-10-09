@@ -3,8 +3,8 @@ import './index.css';
 
 function App() {
   const colors = [
-    'red', 'greenyellow', 'blue', 'yellow', 'violet', 'aqua', 'orange', 'darkmagenta', 'pink',
-    'green', 'indianred', 'aquamarine', 'brown', 'orangered', 'cornflowerblue', 'gold'
+    '#ff0000', '#00FF01', '#0000FE', '#FFFF00', '#FF00FE', '#00FFFF', '#FEA500', '#81007F', '#FFC0CB',
+    '#008001', '#FE6347', '#01CED1', '#894516', '#FF8B00', '#4682B4', '#FED700'
   ];
 
   const [colorBoxesVisible, setColorBoxesVisible] = useState(false);
